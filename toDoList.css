@@ -1,0 +1,80 @@
+body{
+    text-transform: capitalize;
+    background-image:linear-gradient(to right,red,orange,yellow,green);
+    font-family: monospace;
+}
+.container{
+    margin:auto;
+    background-color:;
+    width:400px;
+    height:auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    margin-top:100px;
+    border:2px solid black;
+    
+
+}
+.heading{
+    text-align: center;
+    
+}
+.input{
+    width:300px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 50px;
+    font-size: larger;
+    background-color:white;
+
+
+}
+.add{
+   height:40px;
+   width:60px;
+   background-color:black;
+   color: antiquewhite;
+   border-radius: 50px;
+   cursor: pointer;
+}
+.add:hover{
+    background-color:aquamarine;
+    color:black;
+}
+.to-do{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size:20px;
+    text-decoration:underline;
+    color:black;  
+}
+.mark{
+    text-decoration:line-through;
+}
+.dlt{
+    float:right;
+    margin-right:20px;
+    background-color:black;
+    color:antiquewhite;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-size: small;
+    cursor: pointer;
+}
+.dlt:hover{
+    background-color:aquamarine;
+    color:black;
+    border: 1px solid black;
+   
+}
+.list{
+    border:2px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.check{
+    border-radius: 50px;
+    cursor:pointer;
+    
+}
